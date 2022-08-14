@@ -1,0 +1,6 @@
+.DS_Store
+.sass-cache
+.git
+yarn.lock
+node_modules
+theme

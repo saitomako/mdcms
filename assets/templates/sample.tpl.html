@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><?=$v->title?></title>
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://kit.fontawesome.com/9125ccdf3e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main id="content" class="container flex">
+      <aside class="book-menu">
+        <nav id="sidenavi" class="book-menu">
+          <h2 class="book-brand"><a href="/"><?=$v->sitename?></a></h2>
+          <?=$v->navi?>
+        </nav>
+      </aside>
+      <article id="main" class="entry-content book-page markdown">
+        <?=$v->content?>
+        <?php if($v->debug):?>
+        <p class="debug"><?=$v->debug?></p>
+        <?php endif; ?>
+      </article>
+      <aside class="book-toc">
+        <nav id="toc"></nav>
+      </aside>
+    </main>
+    <?php include "scripts.tpl.html"; ?>
+  </body>
+</html>

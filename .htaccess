@@ -1,0 +1,5 @@
+DirectoryIndex index.md index.php index.html
+AddType text/markdown md
+Action text/markdown /md.php
+
+
