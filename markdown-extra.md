@@ -1,7 +1,7 @@
 # PHP Markdown Extra 仕様の全訳
-[REF](https://hibara.org/blog/2013/03/11/php-markdown-extra-jp/#inline)
+[オリジナルリンク](https://hibara.org/blog/2013/03/11/php-markdown-extra-jp/#inline)
 
-[PHP Markdown Extra](https://michelf.ca/projects/php-markdown/extra/)は、つうじょうのオリジナルMarkdown記法では利用できない、いくつかの特徴を加えて移植されたPHP Markdown記法の特別なバージョンです。PHP Markdown Extraは、[PHP Markdown home page](http://michelf.ca/projects/php-markdown/)からダウンロードできます。
+[PHP Markdown Extra](https://michelf.ca/projects/php-markdown/extra/)は、通常のオリジナルMarkdown記法では利用できない、いくつかの特徴を加えて移植されたPHP Markdown記法の特別なバージョンです。PHP Markdown Extraは、[PHP Markdown home page](http://michelf.ca/projects/php-markdown/)からダウンロードできます。
 
 このドキュメントでは、PHP Markdownn Extraで入れた[Markdown記法](http://daringfireball.net/projects/markdown/syntax)に追加した機能や変更を説明しています。このドキュメントを読む前に、オリジナルのMarkdown記法のドキュメントの方に目を通しておくべきでしょう。
 
